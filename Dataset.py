@@ -6,10 +6,6 @@ import h5py
 import torch
 import torch.utils.data as udata
 from numpy.random import RandomState
-import PIL
-from PIL import Image
-from PIL import ImageFile
-ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 
 def image_get_minmax():
